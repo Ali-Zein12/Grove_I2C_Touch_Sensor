@@ -30,7 +30,7 @@ void setup()
   }
 void loop()
 {
-   touchsensor.initialize(); // initialize the feelers     // Re-initialize the sensor with every time the loop executes
+   touchsensor.initialize();         // Re-initialize the sensor with every time the loop executes
    unsigned char MPR_Query=0;
    unsigned long currentMillis = millis();
  if(currentMillis - previousMillis > interval)
