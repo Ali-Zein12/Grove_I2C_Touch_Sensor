@@ -21,7 +21,7 @@ void setup()
     Serial.begin(9600); // for debugging   
     Serial.print("begin to init");  
     Wire.begin(); // needed by the GroveMultiTouch lib     
-    touchsensor.initialize(); // initialize the feelers     // initialize the containers     
+    touchsensor.initialize();      // initialize the containers     
     //for(int i=0; i<=3; i++) 
     //{          
    // padTouched[i]=false;     
